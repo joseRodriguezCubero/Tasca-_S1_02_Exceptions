@@ -24,8 +24,6 @@ public class Main {
 		
 		System.out.println(prueba+esp+prueba2+esp+prueba3+esp+prueba4+esp+prueba5+esp+prueba6+esp+prueba7);
 		
-		
-
 	}
 
 }

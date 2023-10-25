@@ -41,7 +41,7 @@ public class Main {
 			double total1 = cestaCompra1.calcularTotal();
 			System.out.println("El precio total de la primera venta es venta es; " + total1);
 		} catch (VentaVaciaException e) {
-			e.getMessage(); // salta la excepcion
+			System.out.println(e);// salta la excepcion
 		}
 
 		ArrayList<Producto> productos2 = new ArrayList<Producto>();
