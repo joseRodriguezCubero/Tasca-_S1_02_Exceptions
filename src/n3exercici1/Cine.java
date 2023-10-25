@@ -29,12 +29,16 @@ public class Cine {
 					reservarButaca();
 				} catch (ExcepcionFilaIncorrecta e) {
 					e.getMessage();
+					System.out.println(e);
 				} catch (ExcepcionAsientoIncorrecto e) {
 					e.getMessage();
+					System.out.println(e);
 				} catch (ExcepcionNombrePersonaIncorrecta e) {
 					e.getMessage();
+					System.out.println(e);
 				} catch (ExcepcionButacaOcupada e) {
 					e.getMessage();
+					System.out.println(e);
 				}
 
 				break;
@@ -43,10 +47,13 @@ public class Cine {
 					anularReserva();
 				} catch (ExcepcionFilaIncorrecta e) {
 					e.getMessage();
+					System.out.println(e);
 				} catch (ExcepcionAsientoIncorrecto e) {
 					e.getMessage();
+					System.out.println(e);
 				} catch (ExcepcionButacaLibre e) {
 					e.getMessage();
+					System.out.println(e);
 				}
 				break;
 			case 5:
@@ -54,7 +61,7 @@ public class Cine {
 					anularReservaPersona();
 				} catch (ExcepcionNombrePersonaIncorrecta e) {
 					e.getMessage();
-					;
+					System.out.println(e);
 				}
 				break;
 			case 0:
